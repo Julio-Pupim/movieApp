@@ -5,15 +5,20 @@ box-sizing: border-box;
 body {
     background-color: #131720;
     font-family: sans-serif;
-}
-h3{
     color: white;
 }
-
 .topnav{
     overflow: hidden;
     background-color: #131720;
     padding: 10px;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .topnav a{
@@ -41,14 +46,13 @@ form{
     align-items: center;
 }
 
-input{
-    all: unset;
+input {
     font: 15px system-ui;
-    color: #fff;
+    color: black;
     height: 100%;
     width: 100%;
     padding: 6px 9px;
-}
+  }
 
 .thumbnail{
     height: 350px;
